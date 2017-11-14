@@ -43,14 +43,14 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
             var useriq_site_id = "508048901"
             //All green highlights indicate the areas in the UserIQ script that should contain your own variables
             // user id is required
-            var user_id = "Ashwin"
+            var user_id = "test"
             // account id is required for account analytics
-            var account_id = "Testing"
+            var account_id = "test"
             useriq.setSiteId(useriq_site_id)
             useriq.identify(user_id, {
-              user_name: 'Ashwin',
+              user_name: 'test',
               account_id: account_id,
-              account_name: 'Ashwin',
+              account_name: 'test',
               user_email: 'ashwin.nair@useriq.com',
               signup_date: '2017-11-14',
             })
@@ -59,5 +59,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
             g.defer=true; g.async=true; g.src="https://feed.useriq.com/useriq.js"; s.parentNode.insertBefore(g,s);
           })();
         </script>
+      
       
 </body>
